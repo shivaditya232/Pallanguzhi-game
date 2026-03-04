@@ -1,0 +1,11 @@
+body{
+    background-color:burlywood;
+    font-size: larger;
+}
+.board{
+    background-color:brown ;
+    height: 410px;
+    width:1300px;
+    margin-left: 50px;
+
+}
