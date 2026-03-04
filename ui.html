@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pallanguzhi game</title>
+    <link rel="stylesheet" href="pallanguzhi.css">
+</head>
+<body>
+    <br><br><br><br><br><br><br><br>
+    <div class="board">
+        <div class="playerA">
+            <svg width="1500" height="195">
+                
+                <circle id="hole0" cx="100" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                <circle id="hole1" cx="280" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                <circle id="hole2" cx="460" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                <circle id="hole3" cx="640" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                <circle id="hole4" cx="820" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                <circle id="hole5" cx="1000" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                <circle id="hole6" cx="1180" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                <ellipse cx="70" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="130" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="50" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="100" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="150" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="250" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="300" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="230" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="280" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="330" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="430" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="490" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="410" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="460" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="510" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="610" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="670" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="590" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="640" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="690" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="790" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="850" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="770" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="820" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="870" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="970" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1030" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="950" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1000" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1050" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1150" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1200" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1130" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1180" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1230" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+            </svg>
+            
+        </div>
+        <div class="playerB">
+            <svg width="1500" height="195">
+                <line x1="0" y1="10" x2="1300" y2="10" stroke="rgb(97,0,0)" stroke-width="10" ></line>
+                <circle id="hole7" cx="100" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                <circle id="hole8" cx="280" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                <circle id="hole9" cx="460" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                <circle id="hole10" cx="640" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                <circle id="hole11" cx="820" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                <circle id="hole12" cx="1000" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                <circle id="hole13" cx="1180" cy="110" r="80" stroke="black" stroke-width="3" fill="darkred"></circle>
+                              <ellipse cx="70" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="130" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="50" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="100" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="150" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="250" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="300" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="230" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="280" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="330" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="430" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="490" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="410" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="460" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="510" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="610" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="670" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="590" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="640" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="690" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="790" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="850" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="770" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="820" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="870" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="970" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1030" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="950" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1000" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1050" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1150" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1200" cy="80" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1130" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1180" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+                <ellipse cx="1230" cy="110" rx="20" ry="10" stroke="black" stroke-width="2" fill="pink"></ellipse>
+
+            </svg>
+            
+
+        </div>
+    </div>
+
+</body>
+</html>
